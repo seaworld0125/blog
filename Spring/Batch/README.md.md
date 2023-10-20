@@ -19,19 +19,14 @@
 - Retry/Skip
 - Web based administration interface ([Spring Cloud Data Flow](https://cloud.spring.io/spring-cloud-dataflow))
 
-### Spring Batch 
+### Spring Batch Scenarios
 - Commit batch process periodically.
-    
+	- 주기적인 배치 프로세스 커밋
 - Concurrent batch processing: parallel processing of a job.
-    
+	- 동시 배치 작업, 병렬 
 - Staged, enterprise message-driven processing.
-    
 - Massively parallel batch processing.
-    
 - Manual or scheduled restart after failure.
-    
 - Sequential processing of dependent steps (with extensions to workflow-driven batches).
-    
 - Partial processing: skip records (for example, on rollback).
-    
 - Whole-batch transaction, for cases with a small batch size or existing stored procedures or scripts.
