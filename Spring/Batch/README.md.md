@@ -12,4 +12,10 @@
 ### About Spring Batch
 - Accenture와 Spring Source의 공동 작업으로 2007년에 탄생했다.
 - DI, AOP, 서비스 추상화 등 Spring 프레임워크의 3대 요소를 모두 사용할 수 있다.
-- 
+- Transaction management
+- Chunk based processing 
+- Declarative I/O
+- Start/Stop/Restart
+- Retry/Skip
+- Web based administration interface ([Spring Cloud Data Flow](https://cloud.spring.io/spring-cloud-dataflow))
+
