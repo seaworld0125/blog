@@ -23,10 +23,18 @@
 - Commit batch process periodically.
 	- 주기적인 배치 프로세스 커밋
 - Concurrent batch processing: parallel processing of a job.
-	- 동시 배치 작업, 병렬 
+	- 동시 배치 작업, 병렬 Job 처리
 - Staged, enterprise message-driven processing.
+	- 메시지 기반 프로세싱
 - Massively parallel batch processing.
+	- 대규모 병렬 배치 처리
 - Manual or scheduled restart after failure.
+	- 실패 후 매뉴얼 또는 스케줄된 재시작
 - Sequential processing of dependent steps (with extensions to workflow-driven batches).
+	- 각 Step 별 순차 처리
 - Partial processing: skip records (for example, on rollback).
-- Whole-batch transaction, for cases with a small batch size or existing stored procedures or scripts.
+	- 부분 처리 (records 스킵 또는 롤백)
+
+### Reference
+- https://jojoldu.tistory.com/324?category=902551
+- https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-intro.html#spring-batch-intro

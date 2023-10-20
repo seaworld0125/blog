@@ -1,3 +1,5 @@
+### 현상
+1만 1천 건의 데이터가 오전 10시에 처리되었어야 했지만, 약 400건의 데이터가 Batch Application에서 읽히지 않는 문제가 발생. BATCH_STEP_EXECUTION을 살펴보았을 때 Read 되지도 않았음ㅇ
 
 1. JpaPagingItemReader를 사용
 2. 쿼리에 정렬 조건이 명시되어 있지 않아서 정렬 조건이 문제인 것으로 추측했으나(참고: https://jojoldu.tistory.com/166) 쿼리 수정 후 2만 건의 테스트 데이터로 재현해 본 결과 여전히 문제가 재현됨
