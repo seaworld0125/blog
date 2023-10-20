@@ -19,3 +19,19 @@
 - Retry/Skip
 - Web based administration interface ([Spring Cloud Data Flow](https://cloud.spring.io/spring-cloud-dataflow))
 
+### Spring Batch 
+- Commit batch process periodically.
+    
+- Concurrent batch processing: parallel processing of a job.
+    
+- Staged, enterprise message-driven processing.
+    
+- Massively parallel batch processing.
+    
+- Manual or scheduled restart after failure.
+    
+- Sequential processing of dependent steps (with extensions to workflow-driven batches).
+    
+- Partial processing: skip records (for example, on rollback).
+    
+- Whole-batch transaction, for cases with a small batch size or existing stored procedures or scripts.
