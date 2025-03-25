@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 989900ooPP@ktk
+    hikari:
+      maximum-pool-size: 1
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
